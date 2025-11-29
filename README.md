@@ -71,24 +71,8 @@ The project was developed using the following core libraries (full list in the p
 
 ---
 
-## ✍️ Data Scientist & Credits
-| Attribute | Detail |
-| :--- | :--- |
-| **Data Scientist** | Maximilian Thiel |
-| **Company** | GreenVoice Alliance |
-| **Date** | 30.06.2025 |
-
-### 📄 Sources and References
+## 📄 Sources and References
 * **Dataset:** Todorova, A. et al. (2025). *"Machine learning identifies key individual and nation-level factors predicting climate-relevant beliefs and behaviors."*
 * **Textbooks:** Müller, A. C., & Guido, S. (2016). *Introduction to machine learning with Python*. | James, G. et al. (2023). *An Introduction to Statistical Learning with Applications in Python*.
 * **Interpretability:** Molnar, C. *Interpretable Machine Learning: A Guide for Making Black Box Models Explainable.*
 * **Documentation:** Scikit-learn documentations and User Guide.
-
----
-
-## 🛠️ Future Work
-
-1.  **Advanced Algorithms:** Explore Gradient Boosting methods (XGBoost, LightGBM) for potential performance gains in modeling non-linear interactions.
-2.  **Behavioral Validation:** Augment the target variable with **real-world observed sharing behavior** (digital trace data) to improve ecological validity.
-3.  **Model Explainability:** Incorporate **SHAP values** or **Partial Dependence Plots** for finer-grained, local interpretability of feature effects.
-4.  **Intervention Studies:** Design field experiments to test the causal effect of strengthening key predictors (Environmental Identity, Extrinsic Motivation) on actual sharing behavior.
