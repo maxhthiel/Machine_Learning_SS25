@@ -3,7 +3,7 @@
 ## 🚀 Overview
 This repository contains the complete code and documentation for a **Supervised Learning Study** investigating the psychological drivers behind the willingness to **share climate-related social media content**.
 
-The project, conducted on behalf of the **GreenVoice Alliance**, aims to develop an efficient binary classification model to support data-driven outreach campaigns. By focusing exclusively on **individual-level psychological features** (beliefs, identity, motivation), the model isolates key levers for targeted communication strategies, moving beyond demographic or country-level variables.
+The project, conducted on behalf of the **GreenVoice Alliance** (fake company used for pitch), aims to develop an efficient binary classification model to support data-driven outreach campaigns. By focusing exclusively on **individual-level psychological features** (beliefs, identity, motivation), the model isolates key levers for targeted communication strategies, moving beyond demographic or country-level variables.
 
 ---
 
@@ -50,13 +50,6 @@ Permutation importance analysis revealed the hierarchy of psychological drivers 
 * **Least Influential:** **`intmotiv`** (Internal Motivation) and **`humanid`** (Humanitarian Identity).
 
 A subsequent **Ablation Study** confirmed the robustness of the model, showing that the removal of low-importance features (`humanid`, `intmotiv`) did not negatively impact the final model performance, validating the choice to focus on core psychological constructs.
-
----
-
-## ⚙️ Repository Structure
-* `notebooks/`: Contains the MADS-ML lecture notebooks and the main project notebook outlining the full methodology and analysis.
-* `data/`: Placeholder for the `share.csv` dataset (not included in this public repo, source cited below).
-* `src/`: Contains any helper functions, pipelines, or custom classes (e.g., `FeatureDropper`).
 
 ---
 
